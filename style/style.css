@@ -1,0 +1,13 @@
+body{
+    margin: auto;
+}
+.hero{
+    width: 100%;
+    position: absolute;
+}
+.hero-text{
+    position: relative;
+    text-align: right;
+    height: 100vh;
+    
+}

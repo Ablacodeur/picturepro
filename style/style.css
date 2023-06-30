@@ -19,12 +19,19 @@ body{
     color: #030C0F;
 }
 .quality{
-    background-color: blue;
     padding: auto;
+    position: relative;
+    
+}
+.quality-row{
+    margin-top: -150px;
 }
 .body-icon span{
     font-size: 20vh;
-    color: #030C0F
+    color: #030C0F;
+}
+.body-icon{
+    margin-bottom: 50px;
 }
 #testimony-carousel img{
     width: 20vh;

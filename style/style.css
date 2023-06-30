@@ -3,11 +3,74 @@ body{
 }
 .hero{
     width: 100%;
-    position: absolute;
 }
 .hero-text{
     position: relative;
     text-align: right;
-    height: 100vh;
-    
+    width: 100%;
+    color: #030C0F;
+    top: -500px;
+}
+.big-word{
+    font-size: 75px;
+}
+.hero-button{
+    background-color: #030C0F;
+    color: #030C0F;
+}
+.quality{
+    background-color: blue;
+    padding: auto;
+}
+.body-icon span{
+    font-size: 20vh;
+    color: #030C0F;
+}
+#testimony-carousel img{
+    width: 20vh;
+    margin: 80px 0;
+}
+.testimony-name{
+    margin-top: 100px;
+    padding: 20px;
+}
+.testimony{
+    background-color: #030C0F;
+    padding: 50px 0;
+}
+.sponsoring{
+    background-color: #030C0F;
+}
+.sponsoring img{
+    width: 120px;
+    margin: 40px;
+}
+.suscribtions{
+    margin: 60px 0;
+}
+.card-down{
+    margin-bottom: 50px;
+}
+.menbership{
+    background-color: #030C0F;
+    padding: 40px 0;
+}
+.menbership span{
+    font-size: 30px;
+}
+.menbership .btn{
+   margin: 30px 20px;
+}
+footer{
+    margin: 100px;
+}
+.social-media{
+    margin-bottom: 20px;
+}
+.social-icon{
+    margin: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #030C0F;
 }

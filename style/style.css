@@ -1,6 +1,27 @@
 body{
     margin: auto;
 }
+/* customing my own css rule */
+.bg-pri{
+    background-color: #030C0F !important;
+}
+.border-pri{
+    border: #030C0F 1 solid !important;
+}
+.big-word{
+    font-size: 75px;
+}
+.color-section{
+    background-color: #030C0F;
+    color: white;
+}
+.white-section{
+    color: #030C0F;
+}
+/* end customing my own css rule */
+
+
+/* header */
 .hero{
     width: 100%;
 }
@@ -8,16 +29,19 @@ body{
     position: relative;
     text-align: right;
     width: 100%;
-    color: #030C0F;
     top: -500px;
 }
-.big-word{
-    font-size: 75px;
+.logo{
+    font-size: 4rem !important;
+    font-weight: 5rem;
 }
-.hero-button{
-    background-color: #030C0F;
-    color: #030C0F;
+.nav-link:hover{
+    color: white !important;
 }
+
+/* end header */
+
+/* quality section */
 .quality{
     padding: auto;
     position: relative;
@@ -28,11 +52,13 @@ body{
 }
 .body-icon span{
     font-size: 20vh;
-    color: #030C0F;
 }
 .body-icon{
     margin-bottom: 50px;
 }
+/* end quality section */
+
+/* testimony section */
 #testimony-carousel img{
     width: 20vh;
     margin: 80px 0;
@@ -42,16 +68,18 @@ body{
     padding: 20px;
 }
 .testimony{
-    background-color: #030C0F;
     padding: 50px 0;
 }
-.sponsoring{
-    background-color: #030C0F;
-}
+/* end testimony section */
+
+/* sponsors sections */
 .sponsoring img{
     width: 120px;
     margin: 40px;
 }
+/* end sponsors sections */
+
+/* suscribtion sections */
 .suscribtions{
     margin: 60px 0;
 }
@@ -59,7 +87,6 @@ body{
     margin-bottom: 50px;
 }
 .menbership{
-    background-color: #030C0F;
     padding: 40px 0;
 }
 .menbership span{
@@ -68,6 +95,9 @@ body{
 .menbership .btn{
    margin: 30px 20px;
 }
+/* end suscribtion sections */
+
+/* footer */
 footer{
     margin: 100px;
 }
@@ -81,3 +111,76 @@ footer a{
     text-decoration: none;
     color: #030C0F;
 }
+/* end footer */
+@media (max-width: 900px) { 
+    .hero-text{
+        text-align: center;
+        justify-content: center;
+        top: -255px;
+    }
+    .big-word{
+        font-size: 40px;
+    }
+    .body-icon span{
+        font-size: 15vh;
+    }
+    .nav-link{
+        color: white !important;
+    }
+    .nav-link:hover{
+        color: #030C0F !important;
+    }
+    .nav-color li{
+        width: 20%;
+        text-align: center;
+        border-radius: 2px;
+        visibility: 20%;
+        height: 10vh;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .logo{
+        font-size: 3.5rem !important;
+    }
+
+ }
+
+ @media (max-width: 415px) { 
+    .hero-text{
+        text-align: center;
+        justify-content: center;
+        top: -195px;
+    }
+    .big-word{
+        font-size: 40px;
+    }
+    .nav-color li{
+        height: 7vh;
+        width: 25%;
+    }
+    .logo{
+        font-size: 2rem !important;
+    }
+
+
+ }
+
+ @media (max-width: 280px) { 
+    .hero-text{
+        text-align: center;
+        justify-content: center;
+        top: -140px;
+    }
+    .big-word{
+        font-size: 30px;
+    }
+    .hero-text .first-p{
+        display: none;
+    }
+    .quality-row{
+        margin-top: -80px;
+    }
+    .logo{
+        font-size: 1.7rem !important;
+    }
+ }
+
